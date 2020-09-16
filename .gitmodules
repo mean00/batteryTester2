@@ -19,3 +19,6 @@
 [submodule "simplerMCP4725"]
 	path = simplerMCP4725
 	url =  https://github.com/mean00/simplerMCP4725.git
+[submodule "graphics/TFT_eSPI"]
+	path = graphics/TFT_eSPI
+	url = https://github.com/mean00/TFT_eSPI.git
