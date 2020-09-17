@@ -11,5 +11,4 @@ generate_arduino_library(${libPrefix}graphics
                             BOARD ${ARDUINO_DEFAULT_BOARD}
                         )
 target_include_directories(${libPrefix}graphics PRIVATE ${SUB} ${CMAKE_CURRENT_SOURCE_DIR})
-target_compile_definitions(${libPrefix}graphics PRIVATE SPI_HAS_TRANSACTION ltoa=itoa)
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_definitions(${libPrefix}graphics PRIVATE SPI_HAS_TRANSACTION ltoa=itoa CUSTOM_DRIVER=1)
